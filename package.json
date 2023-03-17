@@ -1,0 +1,25 @@
+{
+  "name": "fastify-template",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch app.ts",
+    "start": "tsx app.ts",
+    "build": "esbuild app.ts  --bundle --platform=node --outdir=dist"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "fastify": "^4.14.1",
+    "fastify-plugin": "^4.5.0",
+    "knex": "^2.4.2",
+    "mysql2": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "esbuild": "^0.17.11",
+    "tsx": "^3.12.5"
+  }
+}

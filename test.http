@@ -1,0 +1,11 @@
+### echo
+POST http://localhost:3000/echo?foo=bar
+Content-Type: application/json
+
+{
+    "hello":"world"
+}
+
+### 404
+
+GET  http://localhost:3000/404
