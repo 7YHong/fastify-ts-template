@@ -6,6 +6,7 @@ const indexRoute: FastifyPluginAsync = async (fastify, opts): Promise<void> => {
       headers: request.headers,
       query: request.query,
       body: request.body,
+      ip: request.ip,
     };
   });
 };

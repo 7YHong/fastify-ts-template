@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx watch app.ts",
     "start": "tsx app.ts",
-    "build": "esbuild app.ts  --bundle --platform=node --outdir=dist"
+    "build": "esbuild app.ts  --bundle --platform=node --outdir=dist --external:sqlite3 --external:better-sqlite3 --external:pg --external:mysql --external:pg-query-stream --external:oracledb --external:tedious"
   },
   "keywords": [],
   "author": "",
